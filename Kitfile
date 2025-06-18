@@ -1,0 +1,13 @@
+manifestVersion: 1.0.0
+package:
+  name: spam-detector
+  description: spam-email
+  authors: [Seyitan Oluwaseitan]
+code:
+  - path: .
+    license: Apache-2.0
+docs:
+  - path: LICENSE
+    description: License file
+  - path: README.md
+    description: Readme file

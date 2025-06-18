@@ -1,0 +1,5 @@
+name: spam-detector
+version: 1.0.0
+framework: scikit-learn
+entrypoint: predict.py
+description: A machine learning model to detect spam messages.
