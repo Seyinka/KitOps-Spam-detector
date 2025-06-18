@@ -1,13 +1,28 @@
 manifestVersion: 1.0.0
+
 package:
   name: spam-detector
-  description: spam-email
+  description: Spam detection model using scikit-learn
   authors: [Seyitan Oluwaseitan]
+
 code:
   - path: .
     license: Apache-2.0
+
 docs:
   - path: LICENSE
     description: License file
   - path: README.md
     description: Readme file
+
+runtime:
+  language: python
+  version: "3.10"
+
+model:
+  framework: sklearn
+  entrypoint: train_model.py
+
+api:
+  enabled: true
+  function: predict.py
